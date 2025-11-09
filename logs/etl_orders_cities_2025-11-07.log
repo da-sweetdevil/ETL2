@@ -1,0 +1,224 @@
+2025-11-07 21:47:43,516 - INFO - ETL process started: Input => PBI1/data/orders_cities.xlsx | Output file => PBI1/output/orders_cities_clean.csv | Logs File => PBI1\logs\etl_orders_cities_2025-11-07.log
+2025-11-07 21:47:43,900 - INFO - Input file successfully loaded!
+2025-11-07 21:47:43,902 - INFO - City names standarized!
+2025-11-07 21:47:43,906 - INFO - Nulls removed! Rows left: 28
+2025-11-07 21:47:43,907 - INFO - 'cost' Datatype set to: float64!
+2025-11-07 21:47:43,907 - INFO - Saving cleaned data to: PBI1/output/orders_cities_clean.csv...
+2025-11-07 21:47:43,911 - INFO - Export Complete!
+2025-11-07 21:47:43,925 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-07 21:47:43,926 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-07 21:47:43,926 - INFO - Pipeline executed without fatal errors.
+2025-11-07 21:47:43,926 - INFO - _________________________________________________________
+2025-11-07 21:49:21,333 - INFO - ETL process started: Input => PBI1/data/orders_cities.xlsx | Output file => PBI1/output/orders_cities_clean.csv | Logs File => PBI1\logs\etl_orders_cities_2025-11-07.log
+2025-11-07 21:49:21,798 - INFO - Input file successfully loaded!
+2025-11-07 21:49:21,800 - INFO - City names standarized!
+2025-11-07 21:49:21,802 - INFO - Nulls removed! Rows left: 28
+2025-11-07 21:49:21,803 - INFO - 'cost' Datatype set to: float64!
+2025-11-07 21:49:21,803 - INFO - Saving cleaned data to: PBI1/output/orders_cities_clean.csv...
+2025-11-07 21:49:21,807 - INFO - Export Complete!
+2025-11-07 21:49:21,819 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-07 21:49:21,821 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-07 21:49:21,822 - INFO - _________________________________________________________
+2025-11-07 21:49:21,822 - INFO - Pipeline executed without fatal errors.
+2025-11-07 21:49:29,287 - ERROR - name 'a' is not defined
+Traceback (most recent call last):
+  File "c:\Back2Work\PBI1\src\clean_data_v6.py", line 86, in <module>
+    main()
+    ~~~~^^
+  File "c:\Back2Work\PBI1\src\clean_data_v6.py", line 33, in main
+    logging.info(f"ETL process started: Input => {args.input} | Output file => {args.output} | Logs File => {a}")
+                                                                                                             ^
+NameError: name 'a' is not defined
+2025-11-07 21:49:34,176 - INFO - ETL process started: Input => PBI1/data/orders_cities.xlsx | Output file => PBI1/output/orders_cities_clean.csv | Logs File => PBI1\logs\etl_orders_cities_2025-11-07.log
+2025-11-07 21:49:34,738 - INFO - Input file successfully loaded!
+2025-11-07 21:49:34,740 - INFO - City names standarized!
+2025-11-07 21:49:34,742 - INFO - Nulls removed! Rows left: 28
+2025-11-07 21:49:34,742 - INFO - 'cost' Datatype set to: float64!
+2025-11-07 21:49:34,742 - INFO - Saving cleaned data to: PBI1/output/orders_cities_clean.csv...
+2025-11-07 21:49:34,746 - INFO - Export Complete!
+2025-11-07 21:49:34,760 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-07 21:49:34,761 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-07 21:49:34,761 - INFO - _________________________________________________________
+2025-11-07 21:49:34,761 - INFO - Pipeline executed without fatal errors.
+2025-11-07 21:50:45,034 - INFO - ETL process started: Input => PBI1/data/orders_cities.xlsx | Output file => PBI1/output/orders_cities_clean.csv | Logs File => PBI1\logs\etl_orders_cities_2025-11-07.log
+2025-11-07 21:50:45,409 - INFO - Input file successfully loaded!
+2025-11-07 21:50:45,410 - INFO - City names standarized!
+2025-11-07 21:50:45,412 - INFO - Nulls removed! Rows left: 28
+2025-11-07 21:50:45,412 - INFO - 'cost' Datatype set to: float64!
+2025-11-07 21:50:45,412 - INFO - Saving cleaned data to: PBI1/output/orders_cities_clean.csv...
+2025-11-07 21:50:45,417 - INFO - Export Complete!
+2025-11-07 21:50:45,425 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-07 21:50:45,426 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-07 21:50:45,426 - INFO - Pipeline executed without fatal errors.
+2025-11-07 21:50:45,426 - INFO - _________________________________________________________
+2025-11-07 21:50:52,820 - ERROR - name 'a' is not defined
+Traceback (most recent call last):
+  File "c:\Back2Work\PBI1\src\clean_data_v6.py", line 84, in <module>
+    main()
+    ~~~~^^
+  File "c:\Back2Work\PBI1\src\clean_data_v6.py", line 33, in main
+    logging.info(f"ETL process started: Input => {args.input} | Output file => {args.output} | Logs File => {a}")
+                                                                                                             ^
+NameError: name 'a' is not defined
+2025-11-07 21:50:52,821 - INFO - _________________________________________________________
+2025-11-07 21:50:56,446 - INFO - ETL process started: Input => PBI1/data/orders_cities.xlsx | Output file => PBI1/output/orders_cities_clean.csv | Logs File => PBI1\logs\etl_orders_cities_2025-11-07.log
+2025-11-07 21:50:56,818 - INFO - Input file successfully loaded!
+2025-11-07 21:50:56,820 - INFO - City names standarized!
+2025-11-07 21:50:56,824 - INFO - Nulls removed! Rows left: 28
+2025-11-07 21:50:56,824 - INFO - 'cost' Datatype set to: float64!
+2025-11-07 21:50:56,824 - INFO - Saving cleaned data to: PBI1/output/orders_cities_clean.csv...
+2025-11-07 21:50:56,828 - INFO - Export Complete!
+2025-11-07 21:50:56,836 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-07 21:50:56,836 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-07 21:50:56,837 - INFO - Pipeline executed without fatal errors.
+2025-11-07 21:50:56,837 - INFO - _________________________________________________________
+2025-11-07 21:54:45,957 - INFO - ETL process started: Input => PBI1/data/orders_cities.xlsx | Output file => PBI1/output/orders_cities_clean.csv | Logs File => PBI1\logs\etl_orders_cities_2025-11-07.log
+2025-11-07 21:54:46,392 - INFO - Input file successfully loaded!
+2025-11-07 21:54:46,394 - INFO - City names standarized!
+2025-11-07 21:54:46,396 - INFO - 'cost' Datatype set to: float64!
+2025-11-07 21:54:46,398 - INFO - Nulls removed!
+2025-11-07 21:54:46,398 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-07 21:54:46,398 - INFO - Saving cleaned data to: PBI1/output/orders_cities_clean.csv...
+2025-11-07 21:54:46,403 - INFO - Export Complete!
+2025-11-07 21:54:46,415 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-07 21:54:46,416 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-07 21:54:46,416 - INFO - Pipeline executed without fatal errors.
+2025-11-07 21:54:46,416 - INFO - _________________________________________________________
+2025-11-07 21:59:35,300 - INFO - ETL process started: Input => PBI1/data/orders_cities.xlsx | Output file => PBI1/output/orders_cities_clean.csv | Logs File => PBI1\logs\etl_orders_cities_2025-11-07.log
+2025-11-07 21:59:36,006 - INFO - Input file successfully loaded!
+2025-11-07 21:59:36,011 - INFO - City names standarized!
+2025-11-07 21:59:36,015 - INFO - 'cost' Datatype set to: float64!
+2025-11-07 21:59:36,018 - INFO - Nulls removed!
+2025-11-07 21:59:36,018 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-07 21:59:36,018 - INFO - Saving cleaned data to: PBI1/output/orders_cities_clean.csv...
+2025-11-07 21:59:36,027 - INFO - Export Complete!
+2025-11-07 21:59:36,043 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-07 21:59:36,044 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-07 21:59:36,045 - INFO - Pipeline executed without fatal errors.
+2025-11-07 21:59:36,045 - INFO - ETL completed in 0.75 seconds.
+2025-11-07 21:59:36,045 - INFO - _________________________________________________________
+2025-11-07 22:00:49,625 - INFO - ETL process started: Input => PBI1/data/orders_cities.xlsx | Output file => PBI1/output/orders_cities_clean.csv | Logs File => PBI1\logs\etl_orders_cities_2025-11-07.log
+2025-11-07 22:00:50,240 - INFO - Input file successfully loaded!
+2025-11-07 22:00:50,242 - INFO - City names standarized!
+2025-11-07 22:00:50,243 - INFO - 'cost' Datatype set to: float64!
+2025-11-07 22:00:50,244 - INFO - Nulls removed!
+2025-11-07 22:00:50,244 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-07 22:00:50,244 - INFO - Saving cleaned data to: PBI1/output/orders_cities_clean.csv...
+2025-11-07 22:00:50,248 - INFO - Export Complete!
+2025-11-07 22:00:50,257 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-07 22:00:50,258 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-07 22:00:50,258 - INFO - Pipeline executed without fatal errors.
+2025-11-07 22:00:50,258 - INFO - ETL completed in 0.64 seconds.
+2025-11-07 22:00:50,258 - INFO - _________________________________________________________
+2025-11-07 22:22:25,342 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean2.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-07.log
+2025-11-07 22:22:25,948 - INFO - Input file successfully loaded!
+2025-11-07 22:22:25,950 - INFO - City names standarized!
+2025-11-07 22:22:25,951 - INFO - 'cost' Datatype set to: float64!
+2025-11-07 22:22:25,952 - INFO - Nulls removed!
+2025-11-07 22:22:25,952 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-07 22:22:25,952 - INFO - Saving cleaned data to: ETL2/output/orders_cities_clean2.csv...
+2025-11-07 22:22:25,956 - INFO - Export Complete!
+2025-11-07 22:22:25,965 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-07 22:22:25,966 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-07 22:22:25,967 - INFO - Pipeline executed without fatal errors.
+2025-11-07 22:22:25,967 - INFO - ETL completed in 0.63 seconds.
+2025-11-07 22:22:25,967 - INFO - _________________________________________________________
