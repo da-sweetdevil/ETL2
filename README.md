@@ -1,4 +1,4 @@
-## ETL2 - Data Cleaning, Logging (Debugging), CLI Args ##
+## ETL2 - Data Cleaning, Logging (Debugging), CLI Args Parsing ##
 > Python script that loads data from EXCEL, rectifies raw data and creates CSV with clean data, all logging into file changed daily..
 
 ### "clean_data.py" Script that ->
@@ -18,6 +18,9 @@
    ## Output
    output/orders_cities_clean.csv
 
+   ## Logs
+   logs/etl_orders_cities_{DATE}.log
+
    ## Requirements
    - pathlib
    - time
@@ -29,7 +32,7 @@
 
 
 ### Push to GitHub ->
-   - Commit script + data + README file + .gitignore file
+   - Commit script + data + logs + README file + .gitignore file
    - Push to a new repository "ETL2"
 
 
