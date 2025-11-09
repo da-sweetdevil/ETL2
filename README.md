@@ -1,5 +1,5 @@
 ## ETL2 - Data Cleaning, Logging (Debugging), CLI Args Parsing ##
-> Python script that loads data from EXCEL, rectifies raw data and creates CSV with clean data, all logging into file changed daily..
+> Python script that loads data from EXCEL, rectifies raw data and creates CSV with clean data, parsing Input & Output paths, all logging into file changed daily..
 
 ### "clean_data.py" Script that ->
    - Requires Input & Output files as syntax arguments
