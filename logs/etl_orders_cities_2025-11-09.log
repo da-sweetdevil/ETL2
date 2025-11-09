@@ -1,0 +1,358 @@
+2025-11-09 16:43:56,211 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 16:43:58,648 - INFO - Input file successfully loaded!
+2025-11-09 16:43:58,648 - ERROR - cannot access local variable 'required_cols' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 87, in <module>
+    main()
+    ~~~~^^
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 46, in main
+    if not required_cols.issubset(df_raw.columns):
+           ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'required_cols' where it is not associated with a value
+2025-11-09 16:43:58,651 - INFO - _________________________________________________________
+2025-11-09 16:44:35,021 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 16:44:35,564 - INFO - Input file successfully loaded!
+2025-11-09 16:44:35,564 - ERROR - cannot access local variable 'required_cols' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 87, in <module>
+    main()
+    ~~~~^^
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 46, in main
+    if not set(required_cols).issubset(df_raw.columns):
+               ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'required_cols' where it is not associated with a value
+2025-11-09 16:44:35,565 - INFO - _________________________________________________________
+2025-11-09 16:44:51,216 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 16:44:51,598 - INFO - Input file successfully loaded!
+2025-11-09 16:44:51,598 - ERROR - list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 88, in <module>
+    main()
+    ~~~~^^
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 46, in main
+    required_cols = ["city"]["cost"]
+                    ~~~~~~~~^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-11-09 16:44:51,602 - INFO - _________________________________________________________
+2025-11-09 16:45:35,736 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 16:45:36,167 - INFO - Input file successfully loaded!
+2025-11-09 16:45:36,167 - ERROR - set expected at most 1 argument, got 2
+Traceback (most recent call last):
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 88, in <module>
+    main()
+    ~~~~^^
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 46, in main
+    required_cols = set(["city"],["cost"])
+TypeError: set expected at most 1 argument, got 2
+2025-11-09 16:45:36,168 - INFO - _________________________________________________________
+2025-11-09 16:46:08,431 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 16:46:08,899 - INFO - Input file successfully loaded!
+2025-11-09 16:46:08,899 - ERROR - cannot use 'list' as a set element (unhashable type: 'list')
+Traceback (most recent call last):
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 88, in <module>
+    main()
+    ~~~~^^
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 47, in main
+    if not set(required_cols).issubset(df_raw.columns):
+           ~~~^^^^^^^^^^^^^^^
+TypeError: cannot use 'list' as a set element (unhashable type: 'list')
+2025-11-09 16:46:08,901 - INFO - _________________________________________________________
+2025-11-09 16:46:28,746 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 16:46:29,169 - INFO - Input file successfully loaded!
+2025-11-09 16:46:29,169 - ERROR - 'tuple' object has no attribute 'issubset'
+Traceback (most recent call last):
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 88, in <module>
+    main()
+    ~~~~^^
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 47, in main
+    if not required_cols.issubset(df_raw.columns):
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'issubset'
+2025-11-09 16:46:29,170 - INFO - _________________________________________________________
+2025-11-09 16:46:51,213 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 16:46:51,588 - INFO - Input file successfully loaded!
+2025-11-09 16:46:51,588 - ERROR - cannot use 'list' as a set element (unhashable type: 'list')
+Traceback (most recent call last):
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 88, in <module>
+    main()
+    ~~~~^^
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 46, in main
+    required_cols = {["city"],["cost"]}
+                    ^^^^^^^^^^^^^^^^^^^
+TypeError: cannot use 'list' as a set element (unhashable type: 'list')
+2025-11-09 16:46:51,589 - INFO - _________________________________________________________
+2025-11-09 16:49:41,505 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 16:49:42,192 - INFO - Input file successfully loaded!
+2025-11-09 16:49:42,198 - INFO - City names standarized!
+2025-11-09 16:49:42,200 - INFO - 'cost' Datatype set to: float64!
+2025-11-09 16:49:42,204 - INFO - Nulls removed!
+2025-11-09 16:49:42,204 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-09 16:49:42,205 - INFO - Saving cleaned data to: ETL2/output/orders_cities_clean.csv...
+2025-11-09 16:49:42,224 - INFO - Export Complete!
+2025-11-09 16:49:42,247 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-09 16:49:42,248 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-09 16:49:42,248 - INFO - Pipeline executed without fatal errors.
+2025-11-09 16:49:42,248 - INFO - ETL completed in 0.75 seconds.
+2025-11-09 16:49:42,249 - INFO - _________________________________________________________
+2025-11-09 16:57:20,562 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 16:57:20,974 - INFO - Input file successfully loaded!
+2025-11-09 16:57:20,976 - INFO - City names standarized!
+2025-11-09 16:57:20,977 - INFO - 'cost' Datatype set to: float64!
+2025-11-09 16:57:20,978 - INFO - Nulls removed!
+2025-11-09 16:57:20,978 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-09 16:57:20,978 - INFO - Saving cleaned data to: ETL2/output/orders_cities_clean.csv...
+2025-11-09 16:57:20,982 - INFO - Export Complete!
+2025-11-09 16:57:20,990 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-09 16:57:20,990 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-09 16:57:20,991 - INFO - Pipeline executed without fatal errors.
+2025-11-09 16:57:20,991 - INFO - ETL completed in 0.43 seconds.
+2025-11-09 16:57:20,991 - INFO - _________________________________________________________
+2025-11-09 16:57:44,857 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 16:57:45,328 - INFO - Input file successfully loaded!
+2025-11-09 16:57:45,330 - INFO - City names standarized!
+2025-11-09 16:57:45,331 - INFO - 'cost' Datatype set to: float64!
+2025-11-09 16:57:45,332 - INFO - Nulls removed!
+2025-11-09 16:57:45,332 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-09 16:57:45,332 - INFO - Saving cleaned data to: ETL2/output/orders_cities_clean.csv...
+2025-11-09 16:57:45,335 - ERROR - Cannot save file into a non-existent directory: 'ETL2\output'
+Traceback (most recent call last):
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 89, in <module>
+    main()
+    ~~~~^^
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 80, in main
+    df_clean.to_csv(args.output, index=False)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DA_Aymen\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\DA_Aymen\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DA_Aymen\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DA_Aymen\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "C:\Users\DA_Aymen\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\DA_Aymen\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\io\common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'ETL2\output'
+2025-11-09 16:57:45,424 - INFO - _________________________________________________________
+2025-11-09 16:58:36,410 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 16:58:37,562 - INFO - Input file successfully loaded!
+2025-11-09 16:58:37,565 - INFO - City names standarized!
+2025-11-09 16:58:37,567 - INFO - 'cost' Datatype set to: float64!
+2025-11-09 16:58:37,569 - INFO - Nulls removed!
+2025-11-09 16:58:37,569 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-09 16:58:37,569 - INFO - Saving cleaned data to: ETL2/output/orders_cities_clean.csv...
+2025-11-09 16:58:37,570 - ERROR - 'str' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 89, in <module>
+    main()
+    ~~~~^^
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 79, in main
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'parent'
+2025-11-09 16:58:37,572 - INFO - _________________________________________________________
+2025-11-09 16:59:52,871 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 16:59:53,451 - INFO - Input file successfully loaded!
+2025-11-09 16:59:53,453 - INFO - City names standarized!
+2025-11-09 16:59:53,454 - INFO - 'cost' Datatype set to: float64!
+2025-11-09 16:59:53,455 - INFO - Nulls removed!
+2025-11-09 16:59:53,455 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-09 16:59:53,455 - INFO - Saving cleaned data to: ETL2/output/orders_cities_clean.csv...
+2025-11-09 16:59:53,455 - ERROR - 'str' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 90, in <module>
+    main()
+    ~~~~^^
+  File "c:\Back2Work\ETL2\src\clean_data_v7.py", line 80, in main
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'parent'
+2025-11-09 16:59:53,456 - INFO - _________________________________________________________
+2025-11-09 17:01:00,767 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 17:01:01,308 - INFO - Input file successfully loaded!
+2025-11-09 17:01:01,312 - INFO - City names standarized!
+2025-11-09 17:01:01,314 - INFO - 'cost' Datatype set to: float64!
+2025-11-09 17:01:01,315 - INFO - Nulls removed!
+2025-11-09 17:01:01,315 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-09 17:01:01,315 - INFO - Saving cleaned data to: ETL2/output/orders_cities_clean.csv...
+2025-11-09 17:01:01,319 - INFO - Export Complete!
+2025-11-09 17:01:01,327 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-09 17:01:01,329 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-09 17:01:01,330 - INFO - Pipeline executed without fatal errors.
+2025-11-09 17:01:01,330 - INFO - ETL completed in 0.57 seconds.
+2025-11-09 17:01:01,330 - INFO - _________________________________________________________
+2025-11-09 17:06:25,787 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 17:06:26,218 - INFO - Input file successfully loaded!
+2025-11-09 17:06:26,220 - INFO - City names standarized!
+2025-11-09 17:06:26,221 - INFO - 'cost' Datatype set to: float64!
+2025-11-09 17:06:26,222 - INFO - Nulls removed!
+2025-11-09 17:06:26,222 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-09 17:06:26,222 - INFO - Creating output directory: ETL2\output
+2025-11-09 17:06:26,222 - INFO - Saving cleaned data to: ETL2/output/orders_cities_clean.csv...
+2025-11-09 17:06:26,226 - INFO - Export Complete!
+2025-11-09 17:06:26,234 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-09 17:06:26,235 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-09 17:06:26,236 - INFO - Pipeline executed without fatal errors.
+2025-11-09 17:06:26,236 - INFO - ETL completed in 0.45 seconds.
+2025-11-09 17:06:26,236 - INFO - _________________________________________________________
+2025-11-09 17:07:18,437 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 17:07:18,936 - INFO - Input file successfully loaded!
+2025-11-09 17:07:18,938 - INFO - City names standarized!
+2025-11-09 17:07:18,939 - INFO - 'cost' Datatype set to: float64!
+2025-11-09 17:07:18,942 - INFO - Nulls removed!
+2025-11-09 17:07:18,943 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-09 17:07:18,944 - INFO - Saving cleaned data to: ETL2/output/orders_cities_clean.csv...
+2025-11-09 17:07:18,951 - INFO - Export Complete!
+2025-11-09 17:07:18,967 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-09 17:07:18,968 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-09 17:07:18,969 - INFO - Pipeline executed without fatal errors.
+2025-11-09 17:07:18,969 - INFO - ETL completed in 0.54 seconds.
+2025-11-09 17:07:18,969 - INFO - _________________________________________________________
+2025-11-09 17:09:19,519 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 17:09:20,133 - INFO - Input file successfully loaded!
+2025-11-09 17:09:20,135 - INFO - City names standarized!
+2025-11-09 17:09:20,136 - INFO - 'cost' Datatype set to: float64!
+2025-11-09 17:09:20,138 - INFO - Nulls removed!
+2025-11-09 17:09:20,139 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-09 17:09:20,139 - INFO - Creating output directory: <WindowsPath.parents>
+2025-11-09 17:09:20,141 - INFO - Saving cleaned data to: ETL2/output/orders_cities_clean.csv...
+2025-11-09 17:09:20,147 - INFO - Export Complete!
+2025-11-09 17:09:20,158 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-09 17:09:20,160 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-09 17:09:20,162 - INFO - Pipeline executed without fatal errors.
+2025-11-09 17:09:20,162 - INFO - ETL completed in 0.64 seconds.
+2025-11-09 17:09:20,162 - INFO - _________________________________________________________
+2025-11-09 17:09:42,913 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 17:09:43,530 - INFO - Input file successfully loaded!
+2025-11-09 17:09:43,532 - INFO - City names standarized!
+2025-11-09 17:09:43,533 - INFO - 'cost' Datatype set to: float64!
+2025-11-09 17:09:43,535 - INFO - Nulls removed!
+2025-11-09 17:09:43,535 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-09 17:09:43,535 - INFO - Saving cleaned data to: ETL2/output/orders_cities_clean.csv...
+2025-11-09 17:09:43,542 - INFO - Export Complete!
+2025-11-09 17:09:43,553 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-09 17:09:43,554 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-09 17:09:43,555 - INFO - Pipeline executed without fatal errors.
+2025-11-09 17:09:43,555 - INFO - ETL completed in 0.65 seconds.
+2025-11-09 17:09:43,556 - INFO - _________________________________________________________
+2025-11-09 17:13:44,512 - INFO - ETL process started: Input => ETL2/data/orders_cities.xlsx | Output file => ETL2/output/orders_cities_clean.csv | Logs File => ETL2\logs\etl_orders_cities_2025-11-09.log
+2025-11-09 17:13:44,894 - INFO - Input file successfully loaded!
+2025-11-09 17:13:44,896 - INFO - City names standarized!
+2025-11-09 17:13:44,897 - INFO - 'cost' Datatype set to: float64!
+2025-11-09 17:13:44,898 - INFO - Nulls removed!
+2025-11-09 17:13:44,898 - INFO - Rows before cleaning: 30 | Rows left: 28
+2025-11-09 17:13:44,898 - INFO - Saving cleaned data to: ETL2/output/orders_cities_clean.csv...
+2025-11-09 17:13:44,902 - INFO - Export Complete!
+2025-11-09 17:13:44,909 - INFO - Preview of cleaned data:
+  order_ID  client       city    cost
+0       a1  Nissan   New York  1803.0
+1       a2    Audi  Barcelona  2004.0
+2       a3      VW     Denver   788.0
+3       a4     BMW       Rome  2193.0
+4       a5    Benz     Venice  1404.0
+2025-11-09 17:13:44,910 - INFO - Columns DataTypes:
+order_ID     object
+client       object
+city         object
+cost        float64
+dtype: object
+2025-11-09 17:13:44,911 - INFO - Pipeline executed without fatal errors.
+2025-11-09 17:13:44,911 - INFO - ETL completed in 0.4 seconds.
+2025-11-09 17:13:44,911 - INFO - _________________________________________________________
